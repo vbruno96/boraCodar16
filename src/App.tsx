@@ -1,5 +1,3 @@
 export function App() {
-  return (
-    <h1>#boraCodar16</h1>
-  )
+  return <h1>#boraCodar16</h1>
 }
