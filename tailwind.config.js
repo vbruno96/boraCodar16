@@ -31,6 +31,9 @@ export default {
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
       },
+      gap: {
+        13: '3.25rem',
+      },
     },
     fontSize: {
       xs: ['.75rem', '.875rem'],
@@ -39,5 +42,5 @@ export default {
       lg: ['1.25rem', '1.5rem'],
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar')({ nocompatible: true })],
 }

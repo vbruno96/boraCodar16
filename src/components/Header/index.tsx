@@ -2,7 +2,7 @@ import { MagnifyingGlass, Pencil, Plus, Trash } from '@phosphor-icons/react'
 
 export function Header() {
   return (
-    <header className="grid gap-6 w-full sm:w-3/5 2xl:w-1/4 bg-gray-900 text-gray-50 p-10 rounded-lg">
+    <header className="grid gap-6 w-full bg-gray-900 text-gray-50 p-10 rounded-lg">
       <div className="flex justify-between items-center">
         <h1 className="flex-1 text-md sm:text-lg font-bold">Meus contatos</h1>
         <div className="flex gap-2 sm:gap-4 ">
