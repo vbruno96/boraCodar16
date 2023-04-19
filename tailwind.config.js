@@ -35,6 +35,7 @@ export default {
     fontSize: {
       xs: ['.75rem', '.875rem'],
       base: ['1rem', '1.25rem'],
+      md: ['1.125rem', '1.25rem'],
       lg: ['1.25rem', '1.5rem'],
     },
   },
